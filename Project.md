@@ -1,91 +1,81 @@
-# 📱 Digital Addiction Trends by Country and Age Group
+# 🧠 Project Title
 
-## Capstone Project Summary
-
-### 🎯 Problem
-
-Excessive screen time—especially on phones and social media platforms—has become a growing global concern. It's been linked to increased anxiety, sleep disorders, attention deficits and reduced productivity, especially among teenagers and working adults.
-
-Despite this, few public dashboards or data models show where digital addiction is most prevalent and how it correlates with mental health or productivity indicators.
+**Digital Behavior and Mental Health Risk Across Age Groups – A Global Study with Teen Focus**
 
 ---
 
-### 🧠 Objective
+## ❓ Problem Statement
 
-Build an end-to-end data analytics pipeline that:
+Digital devices and social media use are on the rise, especially among teenagers. Excessive use is now correlated with sleep disorders, anxiety and emotional distress. However, most data only track screen time without connecting it to real mental health outcomes.
 
-- Collects data on screen time by country and age group
-- Correlates it with indicators of sleep health, anxiety and economic productivity
-- Visualizes risk areas and high-risk groups
-- Supports health organizations and digital wellness campaigns
+This project aims to bridge that gap by combining global usage statistics with real-time emotional signals from social platforms to uncover mental health risk patterns. Special focus will be placed on teenagers — the age group often most affected but least understood.
 
 ---
 
-### 🧰 Tools and Technologies
+## 🎯 Goals
 
-| Component | Tool |
-|----------|------|
-| Data Sourcing | Statista, WHO, Sleep Foundation, Our World In Data |
-| ETL | Python (Pandas, Requests), PostgreSQL |
-| Data Analysis | Python, Jupyter, Seaborn, Matplotlib |
-| Visualization | Power BI / Tableau |
-| Deployment | GitHub for versioning, Docker (optional) for reproducibility |
+- Map digital usage across countries and age groups  
+- Extract mental health–related emotional content from social media  
+- Correlate emotional patterns with sleep and health stats  
+- Identify high-risk populations and countries  
+- Conduct in-depth analysis of teenage behavior and mental health patterns  
 
 ---
 
-### 🔄 Workflow
+## 🔍 Research Questions
 
-1. **Data Collection**  
-   - Scrape or pull APIs from trusted sources
-   - Screen time by age & country (Statista)
-   - Anxiety, depression, sleep disorder prevalence (WHO)
-   - Sleep quality & productivity (Sleep Foundation, OECD)
-
-2. **ETL & Cleaning**  
-   - Standardize formats (age brackets, countries)
-   - Merge datasets on common fields
-   - Calculate key metrics (screen time per day, depression rates, sleep hours)
-
-3. **Analysis**  
-   - Correlation between screen time and mental health
-   - Clustering to find risk groups
-   - Time-series comparison if historical data is available
-
-4. **Dashboard**
-   - Filters: country, age group, risk type
-   - Visuals: Choropleth maps, scatter plots, KPI cards
-   - Downloads: CSV reports for policymakers
+1. Which age groups show the highest screen time and poorest sleep hygiene?  
+2. Are negative emotional expressions more common among younger social media users?  
+3. What are the most prevalent emotional signals among teenagers online?  
+4. Which countries show the highest digital mental health risk for teens?  
+5. How can NGOs and public health groups use this data for mental health interventions?
 
 ---
 
-### 📈 Expected Insights
+## 🗂️ Methodology
 
-- Country-level map of digital addiction risk
-- List of most vulnerable age groups
-- Statistical correlation between screen time and anxiety
-- Sleep disorder prevalence among high-usage populations
+### 1. ETL Pipeline  
+- Collect screen time data by country and age from Statista  
+- Scrape Reddit and pull Tweets using mental health–related keywords  
+- Normalize country and age metadata  
 
----
+### 2. Data Storage  
+- Load cleaned and structured data into **PostgreSQL** or **Google BigQuery**
 
-### 🧭 Social Impact
+### 3. NLP & Analysis  
+- Clean and preprocess social media text  
+- Use pre-trained or fine-tuned sentiment models to detect emotions  
+- Correlate emotional expression patterns with digital usage and health statistics  
 
-- Public health departments can target digital hygiene campaigns more precisely
-- NGOs can prioritize sleep and mental health outreach programs
-- Schools and employers can implement screen time management strategies
-
----
-
-
-### 📌 Bonus Ideas (Optional)
-
-- Use machine learning to predict addiction risk scores
-- Add sentiment analysis from Reddit or Twitter for behavioral trends
-- Visualize productivity vs screen time over time
+### 4. Visualization  
+- Build dashboards using **Power BI** or **Tableau**  
+- Visual tools: line charts, choropleths, word clouds, bar plots  
+- One dashboard for global trends, one focused on teenagers  
 
 ---
 
-### 🙌 Acknowledgements
+## 📊 Deliverables
 
-- WHO, Statista and the Sleep Foundation for open/public data
-- Professors and course mentors for guidance
+- Sentiment-tagged emotional dataset by age group and country  
+- Risk analysis dashboard  
+- Teen-focused mental health profile  
+- Final insight report tailored for NGOs and public health entities  
 
+---
+
+## 📣 Impact
+
+This project supports:
+
+- ✅ **NGOs** in identifying where and who to target with digital mental health programs  
+- ✅ **Public health groups** in creating age-specific mental health campaigns  
+- ✅ **Schools** in developing digital wellness policies and tech hygiene workshops  
+
+---
+
+## 🔚 Final Note
+
+This project is a **prototype for tech-powered public mental health monitoring**.  
+It demonstrates how **interdisciplinary data science** can address urgent, real-world issues like teen mental health — blending psychology, technology and global equity.
+
+---
