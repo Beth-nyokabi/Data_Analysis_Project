@@ -1,79 +1,90 @@
-# 📊 Project Title
+# 📊 Gender Inequality in Politics: A Global Analysis
 
-# 👩‍⚖️ Gender Representation in Politics: A Global Analysis
+## 🔍 What Does This Project Do?
 
-## 📌 Overview
+This project investigates **gender representation in global political institutions**, focusing on:
 
-This project explores the historical and contemporary state of **women’s representation in political office** around the world. Using datasets from the Inter-Parliamentary Union, it aims to identify trends, gaps and progress in achieving gender parity in politics.
+- 🏛️ Percentage of women in parliaments (1945–2018)
+- 🗳️ Women elected in recent elections (2025)
+- 🎙️ Women in parliamentary leadership roles (speakers)
 
-We analyze:
-- Global and regional trends in female parliamentary participation from 1945–2018
-- The gender composition of current parliamentary speakers (2025)
-- Gender representation in the most recent (June 2025) parliamentary elections
+It addresses the problem of **underrepresentation of women in politics** and provides a data-driven lens to evaluate progress, stagnation and inequality over time and across countries.
 
----
-
-## 🎯 Objectives
-
-- Quantify how women's political representation has evolved globally
-- Compare countries and regions in terms of gender inclusion in politics
-- Highlight countries with strong or weak progress toward gender parity
-- Analyze the gender breakdown of parliamentary leadership roles
+**Who it's for:**  
+Researchers, policymakers, activists, educators and citizens concerned with gender equity and democratic governance.
 
 ---
 
-## 🧩 Datasets Used
+## 💡 Why This Project? What Inspired It?
 
-| Dataset | Description | Source |
-|--------|-------------|--------|
-| `women_in_parliament-historical_database-1945_to_2018.xlsx` | Historical data on women in parliament (1945–2018) | IPU |
-| `speakers--2025-06--export--250611-090619--EN.xlsx` | Current speakers of parliaments and their gender | IPU |
-| `elections--2025-06--export--250611-080600--EN.xlsx` | June 2025 parliamentary election results | IPU |
+Despite decades of advocacy, **women still face systemic exclusion from political power**. News headlines often celebrate “firsts” — first female speaker, first woman elected — yet full equality remains elusive.
 
----
+This project was inspired by the desire to:
 
-## 🧠 Key Questions
-
-- How has the percentage of women in national parliaments changed over time?
-- What is the current global distribution of female parliamentary speakers?
-- Are women more represented in unicameral or bicameral systems?
-- Which countries or regions show the most/least gender parity in politics?
-- Did the June 2025 elections increase female representation?
+- Uncover **long-term patterns** in women’s political representation
+- Combine **historical and real-time data**
+- Create **accessible, visual, and impactful insights**
+- Help **fill the gap** between data availability and data usability
 
 ---
 
-## 📊 Tools & Technologies
+## ✨ Features & Outcomes
 
-- Python (Pandas, Matplotlib, Seaborn)
-- Jupyter Notebook / VSCode
-- Excel/CSV data handling
-- Markdown for documentation
+- 📈 **Historical Trends**: Women in parliaments from 1945 to 2018  
+- 🌍 **Global Comparison**: Country-level analysis by year and chamber  
+- 🗳️ **2025 Elections**: Gender outcomes from recent elections  
+- 🎙️ **Leadership Gap**: Gender of parliamentary speakers  
+- 📊 Visualizations built with **Python (VSCode)** and **Tableau Dashboards**
 
----
+**What users can do:**
 
-## 📁 Folder Structure
-
-gender-representation-politics/
-│
-├── data/ # Raw datasets
-├── notebooks/ # Jupyter notebooks
-├── outputs/ # Charts and visualizations
-├── README.md # Project overview
-└── project.md # Full project documentation
-
+- Explore gender gaps in political participation
+- Compare countries and regions across time
+- View trends in leadership representation
+- Use insights for research, reports, or advocacy
 
 ---
 
-## 📌 Status
+## 📊 Key Findings(Assumptions)
 
-📍 *In Progress* — Currently analyzing and visualizing historical and speaker data.  
-📍 Future Steps: Integrate 2025 elections data and finalize insights.
+- 🐢 Progress has been **slow and uneven** since 1945  
+- 🎙️ Women are **significantly underrepresented** in speaker roles  
+- 🗳️ **Recent elections in 2025** show **marginal gains** at best  
+- 🌐 Countries with gender quotas, higher development, or equality policies tend to **perform better**
+
+> 🔎 **Takeaway**: Representation is improving — but not fast enough. Leadership gaps are especially persistent and require structural change.
+
+---
+
+## 🛠️ What’s Next?
+
+Planned features and analysis extensions:
+
+- 📊 Join with external datasets: education, gender equality index, HDI, quota laws
+- 🧠 Predictive models for gender parity forecasts
+- 🌐 Interactive web dashboard for public exploration
+- 💬 Sentiment/media analysis of how women politicians are portrayed
+- 📍 Region-specific focus (e.g., Sub-Saharan Africa, South Asia)
 
 ---
 
-## 🤝 Acknowledgments
+## 🌍 Tools & Technologies
 
-Data courtesy of the [Inter-Parliamentary Union (IPU)](https://data.ipu.org).  
-Special thanks to open data communities promoting transparency and equity.
+- **Python (Pandas, Seaborn, Plotly)** — data wrangling and visualization  
+- **Tableau** — interactive visual dashboards  
+- **Google Sheets / Excel** — data formatting and preprocessing  
+- **VSCode** — coding and documentation  
+- **Google BigQuery (optional)** — cloud data analysis
 
 ---
+
+## 🤝 Contributions & Acknowledgments
+
+- Data sourced from **Inter-Parliamentary Union (IPU)** and **national election commissions**
+- Visualization inspired by work from UN Women, IDEA, and the World Bank
+- Special thanks to open data advocates and gender equality researchers
+
+---
+
+> 📢 _This project is a call to action: Data alone won't solve inequality, but it can expose it — and that’s the first step._
+
