@@ -1,11 +1,11 @@
 # 📊 Gender Inequality in Politics: A Global Analysis
 
-## 🔍 What Does This Project Do?
+## Project Overview
 
+### 🔍 What Does This Project Do?
 This project investigates **gender representation in global political institutions**, focusing on:
 
 - 🏛️ Percentage of women in parliaments (1945–2018)
-- 🗳️ Women elected in recent elections (2025)
 - 🎙️ Women in parliamentary leadership roles (speakers)
 
 It addresses the problem of **underrepresentation of women in politics** and provides a data-driven lens to evaluate progress, stagnation and inequality over time and across countries.
@@ -15,10 +15,12 @@ Researchers, policymakers, activists, educators and citizens concerned with gend
 
 ---
 
-## 💡 Why This Project? What Inspired It?
+## Goal
 
+### 💡 Why This Project? 
 Despite decades of advocacy, **women still face systemic exclusion from political power**. News headlines often celebrate “firsts” — first female speaker, first woman elected — yet full equality remains elusive.
 
+### What Inspired It?
 This project was inspired by the desire to:
 
 - Uncover **long-term patterns** in women’s political representation
@@ -30,11 +32,11 @@ This project was inspired by the desire to:
 
 ## ✨ Features & Outcomes
 
-- 📈 **Historical Trends**: Women in parliaments from 1945 to 2018  
-- 🌍 **Global Comparison**: Country-level analysis by year and chamber  
-- 🗳️ **2025 Elections**: Gender outcomes from recent elections  
-- 🎙️ **Leadership Gap**: Gender of parliamentary speakers  
-- 📊 Visualizations built with **Python (VSCode)** and **Tableau Dashboards**
+- 📈 Decades of Data: Analyzed gender representation in parliaments from 1945 to 2018, uncovering long-term trends in women’s political participation. 
+- 🌍 Regional & Global Comparison: Explored disparities across countries and continents, highlighting where gender gaps persist or progress has been made.  
+- 🧭 Chamber Analysis: Compared representation in upper vs lower houses, revealing how parliamentary structure influences gender balance.  
+- 🎙️ Leadership Disparity: Investigated the gender of parliamentary speakers, exposing gaps in top-level political authority. 
+- 📊 Data Visualizations: Built engaging, interactive visuals using Python (Pandas, Seaborn, Matplotlib) hosted on a dynamic web interface.
 
 **What users can do:**
 
@@ -45,11 +47,10 @@ This project was inspired by the desire to:
 
 ---
 
-## 📊 Key Findings(Assumptions)
+## 📊 Some Key Findings
 
 - 🐢 Progress has been **slow and uneven** since 1945  
-- 🎙️ Women are **significantly underrepresented** in speaker roles  
-- 🗳️ **Recent elections in 2025** show **marginal gains** at best  
+- 🎙️ Women are **significantly underrepresented** in speaker roles    
 - 🌐 Countries with gender quotas, higher development, or equality policies tend to **perform better**
 
 > 🔎 **Takeaway**: Representation is improving — but not fast enough. Leadership gaps are especially persistent and require structural change.
@@ -70,11 +71,10 @@ Planned features and analysis extensions:
 
 ## 🌍 Tools & Technologies
 
-- **Python (Pandas, Seaborn, Plotly)** — data wrangling and visualization  
-- **Tableau** — interactive visual dashboards  
-- **Google Sheets / Excel** — data formatting and preprocessing  
-- **VSCode** — coding and documentation  
-- **Google BigQuery (optional)** — cloud data analysis
+- **Python (Pandas, Seaborn, Plotly)** — data wrangling and visualization   
+- **VSCode** — data formatting and preprocessing  
+- **Google Colab** — coding and documentation  
+- **Google BigQuery** — cloud data analysis(where my warehouse is)
 
 ---
 
