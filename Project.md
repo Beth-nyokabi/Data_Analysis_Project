@@ -15,7 +15,6 @@ This project investigates the **extent and evolution of gender representation in
 It explores:
 - Trends in women’s representation from 1945 to 2018
 - The gender makeup of current parliamentary speakers
-- Early insights from the June 2025 parliamentary elections
 
 ---
 
@@ -25,7 +24,7 @@ It explores:
 2. What structural or regional patterns emerge in female political leadership?
 3. How are women represented in speaker roles across different parliamentary systems?
 4. Are certain countries or systems (unicameral vs bicameral) more inclusive?
-5. Has there been meaningful change in the 2025 elections compared to historical trends?
+
 
 ---
 
@@ -41,18 +40,13 @@ It explores:
 - Fields: Country, gender, chamber type, speaker name
 - Use: Gender distribution among legislative leadership
 
-### 3. **2025 Parliamentary Elections**
-- 📄 `elections--2025-06--export--250611-080600--EN.xlsx`
-- Coverage: Most recent election cycle
-- Use: Check if recent elections increased women's representation
-
 ---
 
 ## 📈 Methodology
 
 - Clean and preprocess data using Pandas
 - Calculate gender ratios and trends over time
-- Aggregate and compare by region, system type, and year
+- Aggregate and compare by region, system type and year
 - Create visualizations (line charts, bar graphs, maps)
 - Draw insights and policy implications
 
